@@ -1,0 +1,15 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    drun-display-format: "{name}";
+    disable-history: false;
+    hide-scrollbar: true;
+    
+    /* Iconos limpios en lugar de texto largo para la barra de búsqueda */
+    display-drun: "";
+    display-run: "";
+    display-window: "";
+    sidebar-mode: true;
+}
+
+@theme "/themes/alita.rasi"

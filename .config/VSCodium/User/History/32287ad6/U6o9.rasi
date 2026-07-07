@@ -1,0 +1,42 @@
+@import "alita.rasi"
+
+window {
+    location: top right;
+    anchor: top right;
+
+    /* Hacemos el recuadro más pequeño y compacto */
+    width: 260px;
+
+    /* AQUI ESTÁ LA MAGIA PARA MOVERLO */
+    /* Modifica x-offset para moverlo a izquierda/derecha hasta que quede justo debajo de tu icono */
+    x-offset: -20px;
+
+    /* Modifica y-offset según el grosor de tu Waybar */
+    y-offset: 40px;
+
+    /* Bordes redondeados sutiles */
+    border-radius: 8px;
+}
+
+mainbox {
+    /* Padding interior para que no quede pegado a los bordes */
+    padding: 10px;
+}
+
+inputbar {
+    /* Nos aseguramos de que la barra de búsqueda esté muerta */
+    enabled: false;
+}
+
+listview {
+    /* 5 líneas exactas para: Red, IP, Separador, Toggle y Config */
+    lines: 5;
+    scrollbar: false;
+    /* Espacio entre los elementos */
+    spacing: 4px;
+}
+
+element {
+    padding: 6px;
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+/* Usamos la ruta absoluta por seguridad */
+@import "~/.config/rofi/themes/alita.rasi"
+
+window {
+    /* En Rofi, arriba a la derecha se dice "northeast" */
+    location: northeast;
+    anchor: northeast;
+
+    width: 260px;
+
+    /* Ajustes para moverlo debajo de Waybar */
+    x-offset: -20px;
+    y-offset: 40px;
+
+    border-radius: 8px;
+}
+
+mainbox {
+    padding: 10px;
+}
+
+inputbar {
+    enabled: false;
+}
+
+listview {
+    lines: 5;
+    scrollbar: false;
+    spacing: 4px;
+}
+
+element {
+    padding: 6px;
+    border-radius: 4px;
+}

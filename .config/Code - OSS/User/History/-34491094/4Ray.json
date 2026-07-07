@@ -1,0 +1,130 @@
+{
+    // ╔══════════════════════════════════════╗
+    // ║         ALITA CODIUM SETTINGS       ║
+    // ╚══════════════════════════════════════╝
+
+    // ======================================
+    // Editor
+    // ======================================
+
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.3,
+    "editor.fontLigatures": true,
+
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.indentation": true,
+
+    "editor.renderWhitespace": "selection",
+    "editor.renderControlCharacters": false,
+
+    "editor.stickyScroll.enabled": true,
+
+    // ======================================
+    // Workbench
+    // ======================================
+
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.smoothScrolling": true,
+
+    // ======================================
+    // Explorer
+    // ======================================
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": true,
+    "explorer.sortOrder": "default",
+
+
+    // ======================================
+    // Window
+    // ======================================
+
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "window.zoomLevel": 0,
+
+    // ======================================
+    // Files
+    // ======================================
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 800,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "files.simpleDialog.enable": true,
+
+    // ======================================
+    // Terminal
+    // ======================================
+
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "terminal.integrated.fontSize": 14,
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.smoothScrolling": true,
+
+    "terminal.integrated.defaultLocation": "editor",
+
+    // ======================================
+    // Git
+    // ======================================
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+
+    // ======================================
+    // Search
+    // ======================================
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.git": true
+    },
+
+    // ======================================
+    // Security
+    // ======================================
+
+    "security.workspace.trust.enabled": false,
+
+    // ======================================
+    // ALITA Theme (Pastel Apagado)
+    // ======================================
+
+    "workbench.colorCustomizations": {
+        "focusBorder": "#9B7A87",
+        "sideBar.border": "#9B7A87",
+        "panel.border": "#9B7A87",
+        "statusBar.border": "#9B7A87",
+        "activityBar.border": "#9B7A87",
+        "tab.activeBorderTop": "#9B7A87",
+        "tab.activeBorder": "#9B7A87",
+        "list.activeSelectionBorder": "#9B7A87",
+        "list.inactiveSelectionBackground": "#9B7A8733",
+        "button.background": "#9B7A87",
+        "button.hoverBackground": "#A88B97",
+        "editorCursor.foreground": "#C8B0B9",
+        "statusBar.background": "#252526",
+        "statusBar.foreground": "#D4C5CB"
+    }
+}

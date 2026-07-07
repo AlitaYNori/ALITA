@@ -1,0 +1,22 @@
+* {
+    font-family: monospace;
+}
+
+window#waybar {
+    background-color: #1a1a1a;
+    color: white;
+
+    margin: 6px 10px;
+    border-radius: 10px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.modules-left {
+    padding-left: 10px;
+}
+
+.modules-right {
+    padding-right: 10px;
+}
+

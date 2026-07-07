@@ -1,0 +1,64 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "926a2265a748d980f9d4eaaf7f1c25584e39631267ceec2a39852ab0c60d40c4",
+    "telemetry.devDeviceId": "f6c98533-4508-4472-8f90-5c4b8dc6968a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1783387391386"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1783387391386": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/alita/.config/Code - OSS/Backups/1783387391386",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 660,
+                "height": 364
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#9b7a87",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#9b7a87",
+            "statusBarBackground": "#252526",
+            "statusBarBorder": "#9b7a87",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

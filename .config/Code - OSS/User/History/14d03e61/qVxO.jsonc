@@ -1,0 +1,134 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 0,
+
+    "modules-left": [
+        "custom/alita",
+        "cpu",
+        "memory",
+        "temperature"
+    ],
+
+    "modules-center": [
+      "hyprland/workspaces",
+      "hyprland/window"
+    ],
+
+    "modules-right": [
+       "clock",
+       "network",
+       "tray",
+       "bluetooth",
+       "pulseaudio"
+     ],
+
+     "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true,
+        "active-only": false,
+        "all-outputs": true,
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "empty": ""
+        },
+        "persistent-workspaces": {
+            "1": [], "2": [], "3": [], "4": [], "5": []
+        },
+        "window-rewrite-default": "",
+        "window-rewrite": {
+            "class<firefox>": "",
+            "class<zen>": "",
+            "class<kitty>": "󰄛",
+            "class<discord>": "",
+            "class<vesktop>": "",
+            "class<code>": "󰨞",
+            "class<thunar>": "",
+            "class<spotify>": ""
+        }
+    },
+
+    "hyprland/window": {
+        "format": "{class}",
+        "max-length": 20,
+        "separate-outputs": true
+    },
+
+     "clock": {
+          "format": "{:%I:%M %p}",
+          "tooltip-format": "<big>{:%A %d de %B de %Y}</big>\n<tt><small>{calendar}</small></tt>",
+          "interval": 1,
+          "calendar": {
+               "mode": "month"
+         },
+          "on-click": ""
+     },
+
+     "network": {
+         "format-wifi": "Red: On",
+         "format-ethernet": "Red: On",
+         "format-disconnected": "Red: Off",
+         "tooltip": true,
+         "interval": 3,
+         "on-click": "",
+         "tooltip-format": "{ipaddr} | {ifname} | {gwaddr}"
+     },
+     "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-bluetooth": "{icon} {volume}% ",
+            "format-muted": "󰖁",
+            "format-icons": {
+                "headphone": "",
+                "headset": "󰋋",
+                "speaker": "󰓃",
+                "hdmi": "󰡁",
+                "default": ["", "", ""]
+         },
+         "scroll-step": true,
+         "tooltip": true,
+         "on-click": "pavucontrol"
+     },
+
+     "custom/alita": {
+           "format": "󰣇",
+           "tooltip": false,
+           "on-click": "rofi -show drun"
+     },
+
+     "cpu": {
+         "format": " {usage}%",
+         "tooltip": true,
+         "interval": 2
+     },
+
+     "memory": {
+           "format": "  {used:0.1f}G",
+           "tooltip": true,
+           "interval": 5
+     },
+
+     "temperature": {
+             "format": " {temperatureC}°C",
+             "format-critical": " {temperatureC}°C",
+             "critical-threshold": 80,
+             "tooltip": true,
+             "interval": 5
+      },
+
+      "bluetooth": {
+            "format": "",
+            "format-disabled": "",
+            "format-off": "",
+            "tooltip": true,
+            "on-click": "blueman-manager"
+      },
+
+      "tray": {
+          "icon-size": 18,
+          "spacing": 10
+      }
+}
+

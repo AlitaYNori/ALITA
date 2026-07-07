@@ -1,0 +1,128 @@
+* {
+    /* --- Paleta de colores --- */
+    bg-transparent:     rgba(0, 0, 0, 0);
+    bg-dark-trans:      rgba(20, 16, 26, 0.45);
+    bg-input-trans:     rgba(26, 20, 34, 0.55);
+    bg-selected-trans:  rgba(245, 169, 208, 0.25);
+
+    text-color:         #f2eafc;
+    text-color-alt:     #d8c9f0;
+
+    accent-pink:        #f5a9d0;
+    accent-purple:      #b9a9f5;
+    accent-blue:        #a9d4f5;
+
+    border-color:       rgba(245, 169, 208, 0.55);
+    border-selected:    #f5a9d0;
+
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    /* --------------------------------------------------------- */
+    /* PON AQUÍ LA RUTA A TU IMAGEN ANIME (TIENE QUE ESTAR ENTRE COMILLAS) */
+    background-image: url("/home/alita/.config/rofi/wallpapers/anime-waifu.jpg", both);
+    /* --------------------------------------------------------- */
+    
+    background-color: @bg-transparent;
+    width: 900px;
+    height: 560px;
+    border-radius: 28px;
+    
+    /* Corrección de borde para Rofi */
+    border: 2px;
+    border-color: @border-color;
+
+    location: center;
+    padding: 0px;
+}
+
+mainbox {
+    background-color: @bg-transparent;
+    padding: 30px;
+    spacing: 18px;
+    children: [ "inputbar", "listview" ];
+}
+
+inputbar {
+    background-color: @bg-input-trans;
+    text-color: @text-color;
+    border-radius: 20px;
+    
+    /* Corrección de borde para Rofi */
+    border: 1px;
+    border-color: @border-color;
+    
+    padding: 12px 18px;
+    spacing: 10px;
+    children: [ "prompt", "entry" ];
+}
+
+prompt {
+    background-color: @bg-transparent;
+    text-color: @accent-pink;
+    font: "JetBrainsMono Nerd Font 13";
+}
+
+entry {
+    background-color: @bg-transparent;
+    text-color: @text-color;
+    placeholder: "Buscar...";
+    placeholder-color: @text-color-alt;
+    cursor: text;
+}
+
+listview {
+    background-color: @bg-dark-trans;
+    border-radius: 20px;
+    padding: 12px;
+    spacing: 6px;
+    lines: 8;
+    columns: 1;
+    fixed-height: false;
+    scrollbar: false;
+    border: 0px;
+}
+
+element {
+    background-color: @bg-transparent;
+    text-color: @text-color;
+    border-radius: 14px;
+    padding: 8px 12px;
+    spacing: 10px;
+    orientation: horizontal;
+}
+
+element normal.normal {
+    background-color: @bg-transparent;
+    text-color: @text-color;
+}
+
+element selected.normal {
+    background-color: @bg-selected-trans;
+    text-color: @accent-pink;
+    
+    /* Corrección de borde para Rofi */
+    border: 1px;
+    border-color: @border-selected;
+    
+    border-radius: 14px;
+}
+
+element-icon {
+    size: 26px;
+    vertical-align: 0.5;
+    background-color: transparent;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+/* Ocultar botones inferiores para más limpieza visual */
+mode-switcher {
+    enabled: false;
+}

@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.3,
+    "editor.fontLigatures": true
+}

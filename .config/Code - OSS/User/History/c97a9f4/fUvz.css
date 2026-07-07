@@ -1,0 +1,122 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+    font-size: 13px; /* Letra un poco más pequeña (antes 14px) */
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* Reduje el padding general para que las píldoras sean más delgadas */
+#custom-alita,
+#cpu,
+#memory,
+#temperature,
+#workspaces,
+#window,
+#clock,
+#network,
+#bluetooth,
+#tray {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 6px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+#pulseaudio {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 2px 10px; /* Más pequeño (antes era 4px 14px) */
+    margin: 6px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* --- Bloque central --- */
+#workspaces {
+    padding: 2px 8px;
+}
+
+/* Estilo para el nombre de la ventana (para que combine con los colores pastel) */
+#window {
+    color: #f5a9d0;
+    padding: 2px 14px;
+}
+
+#workspaces button {
+    padding: 0 4px;
+    margin: 0 2px;
+    border-radius: 12px;
+    color: #b9a9f5;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    min-width: 0;
+}
+
+#workspaces button.empty {
+    color: #6b6478;
+}
+
+#workspaces button.active {
+    color: #f5a9d0;
+    background-color: rgba(245, 169, 208, 0.12);
+}
+
+#workspaces button:hover {
+    background-color: rgba(185, 169, 245, 0.15);
+    color: #f5d0a9;
+}
+
+/* --- Colores individuales --- */
+/* Arreglo para que el logo sea un círculo en vez de óvalo */
+#custom-alita {
+    color: #f5a9d0;
+    font-size: 16px; /* Icono un poco más chico */
+    padding: 2px 12px; /* Equilibramos los bordes para hacerlo más redondo */
+    min-width: 20px;
+}
+
+#cpu { color: #a9c9f5; }
+#memory { color: #b9a9f5; }
+#temperature { color: #f5b8a9; }
+#temperature.critical { color: #f57a94; }
+
+#clock { color: #f5d0a9; }
+#network { color: #a9e9f5; }
+#network.disconnected { color: #f57a94; }
+
+/* Configuración Bluetooth */
+#bluetooth { color: #c9a9f5; }
+#bluetooth.disabled, #bluetooth.off {
+    color: #6b6478; /* Un gris/violeta apagado para que combine con tu tema */
+}
+
+#pulseaudio { color: #f5a9c3; }
+
+/* Efecto al pasar el ratón */
+#custom-alita:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#workspaces:hover,
+#window:hover,
+#clock:hover,
+#network:hover,
+#bluetooth:hover,
+#pulseaudio:hover {
+    background-color: rgba(40, 35, 55, 0.9);
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: #1a1a1a;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 6px;
+}
+tooltip label {
+    color: white;
+}

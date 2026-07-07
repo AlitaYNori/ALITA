@@ -1,0 +1,53 @@
+{
+    // ╔══════════════════════════════════════╗
+    // ║         ALITA CODIUM SETTINGS       ║
+    // ╚══════════════════════════════════════╝
+
+    // ======================================
+    // Editor
+    // ======================================
+
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.3,
+    "editor.fontLigatures": true,
+
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.indentation": true,
+
+    "editor.renderWhitespace": "selection",
+    "editor.renderControlCharacters": false,
+
+    "editor.stickyScroll.enabled": true,
+
+    // ======================================
+    // Workbench
+    // ======================================
+
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.smoothScrolling": true,
+
+    // ======================================
+    // Explorer
+    // ======================================
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": true,
+    "explorer.sortOrder": "default",
+    "explorer.openEditors.visible": 0
+}

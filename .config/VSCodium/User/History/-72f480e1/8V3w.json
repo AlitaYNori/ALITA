@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.3,
+    "editor.fontLigatures": true,
+
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true
+}

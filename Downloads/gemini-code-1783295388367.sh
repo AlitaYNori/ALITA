@@ -1,0 +1,1 @@
+nano ~/.config/alita/scripts/startup.sh

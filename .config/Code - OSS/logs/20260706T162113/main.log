@@ -1,0 +1,7 @@
+2026-07-06 16:21:13.415 [info] StorageMainService: creating application shared storage
+2026-07-06 16:21:13.503 [info] [shared storage] Creating shared storage database at '/home/alita/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-07-06 16:21:13.504 [info] [shared storage] Initializing fallback application storage (path: /home/alita/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-07-06 16:21:13.524 [info] [shared storage] Fallback application storage initialized with 63 items
+2026-07-06 16:21:13.528 [info] update#setState disabled
+2026-07-06 16:21:13.528 [info] update#ctor - updates are disabled as there is no update URL
+2026-07-06 16:22:12.168 [info] Extension host with pid 3641 exited with code: 0, signal: unknown.

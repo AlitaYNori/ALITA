@@ -1,0 +1,13 @@
+2026-07-06 22:19:02.173 [info] Extension host with pid 13758 started
+2026-07-06 22:19:02.772 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-06 22:19:02.840 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-06 22:19:02.863 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-07-06 22:19:03.454 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-06 22:19:03.547 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-06 22:19:03.642 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-06 22:19:03.796 [info] Eager extensions activated
+2026-07-06 22:19:03.872 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-06 22:19:03.876 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-06 22:19:03.902 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-07-06 22:20:39.738 [info] Extension host terminating: received terminate message from renderer
+2026-07-06 22:20:39.762 [info] Extension host with pid 13758 exiting with code 0

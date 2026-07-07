@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "926a2265a748d980f9d4eaaf7f1c25584e39631267ceec2a39852ab0c60d40c4",
+    "telemetry.devDeviceId": "f6c98533-4508-4472-8f90-5c4b8dc6968a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1783294096881"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/alita/Proyecto-Hyprland": "__default__profile__",
+            "file:///home/alita/.config/rofi/themes": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1783294096881": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/alita/.config/VSCodium/Backups/1783294096881",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 660,
+                "height": 688
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#7a1f3d",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#7a1f3d",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "e1faa68bff8edff9929d361747201f81": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d532285fc2ee5469b678f813a2feee09": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
